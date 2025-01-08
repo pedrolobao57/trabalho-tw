@@ -1,0 +1,29 @@
+body{
+background-color: rgba(70, 64, 64, 0.034);
+}
+
+.roboto-slab{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    
+    font-style: normal;
+  }
+  
+nav{
+    
+    font-family:"Roboto Slab";
+    text-align: right;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 25px;
+    }
+
+.Hero_image{
+    align-items: center;
+}
