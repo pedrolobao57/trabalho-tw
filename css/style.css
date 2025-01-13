@@ -1,3 +1,16 @@
+:root{
+    --logo1: #6439FF;
+    --logo2: #4F75FF;
+    --logo3: #00CCDD;
+    --logo4: #7CF5FF;
+    --text--dark: #030712;
+    --text--light: #6b7280;
+    --text--lighter: #f9fafb;
+
+
+}
+
+
 body{
 background-color: rgba(70, 64, 64, 0.034);
 }
