@@ -23,7 +23,7 @@ background-color: rgba(70, 64, 64, 0.034);
   }
   
 nav{
-    
+    justify-content: space-between;
     font-family:"Roboto Slab";
     text-align: right;
 }
@@ -36,6 +36,12 @@ nav ul li{
     display: inline-block;
     margin-right: 25px;
     }
+
+.navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
 .Hero_image{
     align-items: center;
