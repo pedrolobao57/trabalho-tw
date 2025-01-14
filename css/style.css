@@ -1,19 +1,18 @@
-:root{
-    --logo1: #6439FF;
-    --logo2: #4F75FF;
-    --logo3: #00CCDD;
-    --logo4: #7CF5FF;
-    --text--dark: #030712;
-    --text--light: #6b7280;
-    --text--lighter: #f9fafb;
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
 
-
+:root {
+  --logo1: #6439ff;
+  --logo2: #4f75ff;
+  --logo3: #00ccdd;
+  --logo4: #7cf5ff;
+  --text--dark: #030712;
+  --text--light: #6b7280;
+  --text--lighter: #f9fafb;
 }
 
 
 body{
-
-background-color: var(--text--lighter);
+background-color: rgba(70, 64, 64, 0.034);
 }
 
 .roboto-slab{
@@ -29,21 +28,21 @@ nav{
     text-align: right;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-nav ul li{
-    display: inline-block;
-    margin-right: 25px;
-    }
-
-.navBar{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+nav ul li {
+  display: inline-block;
+  margin-right: 25px;
 }
 
-.Hero_image{
-    align-items: center;
+.navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Hero_image {
+  align-items: center;
 }
