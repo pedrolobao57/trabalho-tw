@@ -10,20 +10,22 @@
   --text--lighter: #f9fafb;
 }
 
-body {
-  background-color: rgba(70, 64, 64, 0.034);
-  margin: 0;
-  font: 1rem "Quicksand", sans-serif;
+
+body{
+background-color: rgba(70, 64, 64, 0.034);
 }
 
-.Hero_logo {
-  width: 10rem;
-  margin: 0;
-}
-
-nav {
-  justify-content: space-between;
-  text-align: right;
+.roboto-slab{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    
+    font-style: normal;
+  }
+  
+nav{
+    justify-content: space-between;
+    font-family:"Roboto Slab";
+    text-align: right;
 }
 
 a {
