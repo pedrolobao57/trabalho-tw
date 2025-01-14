@@ -12,7 +12,8 @@
 
 
 body{
-background-color: rgba(70, 64, 64, 0.034);
+
+background-color: var(--text--lighter);
 }
 
 .roboto-slab{
