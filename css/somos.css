@@ -43,13 +43,13 @@ nav ul li {
 
 /* Tudo até agora da Somos */
 
-.container {
+.whoweare {
   position: relative;
   text-align: center;
   color: white;
 }
 
-.container img {
+.whoweare img {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
