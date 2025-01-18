@@ -40,11 +40,13 @@ nav ul li {
   flex-direction: row;
   justify-content: space-between;
   color: var(--logo1);
+  font-weight: 700;
 }
 
 .navBar a:link, .navBar a:visited {
   color: var(--logo1);
-  text-decoration: none 
+  text-decoration: none;
+  
 }
 
 .Hero_image {
