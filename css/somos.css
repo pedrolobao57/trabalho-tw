@@ -39,6 +39,12 @@ nav ul li {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  color: var(--logo1);
+}
+
+.navBar a:link, .navBar a:visited {
+  color: var(--logo1);
+  text-decoration: none 
 }
 
 /* Tudo até agora da Somos */
