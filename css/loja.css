@@ -50,3 +50,49 @@ nav ul li {
 
 /*Loja*/
 
+.row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.scontainer{
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.col4{
+  flex-basis: 25%;
+  padding: 10px;
+  min-width: 200px;
+  margin-bottom: 50px;
+  transition: transform 0.5s;
+}
+
+.col4 img{
+  width: 100%;
+}
+
+.title{
+  text-align: center;
+  margin: 0 auto 30px;
+  position: relative;
+  line-height: 60px;
+  color:#6439ff ;
+  padding-top: 20px;
+}
+
+h4{
+  font-weight: normal;
+}
+
+.col4 p{
+  font-size: 14px;
+}
+
+.col4:hover{
+  transform: translateY(-10px);
+}
