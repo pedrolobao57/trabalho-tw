@@ -88,7 +88,7 @@ nav ul li {
   padding-right: 25px;
 }
 
-.col4{
+.linha{
   flex-basis: 25%;
   padding: 10px;
   min-width: 200px;
@@ -96,7 +96,7 @@ nav ul li {
   transition: transform 0.5s;
 }
 
-.col4 img{
+.linha img{
   width: 100%;
 }
 
@@ -113,10 +113,10 @@ h4{
   font-weight: normal;
 }
 
-.col4 p{
+.linha p{
   font-size: 14px;
 }
 
-.col4:hover{
+.linha:hover{
   transform: translateY(-10px);
 }
