@@ -85,7 +85,7 @@ nav ul li {
 }
 .product-price {
   font-size: 1.5rem;
-  color: #27ae60;
+  color: #6439ff;
   margin-bottom: 20px;
 }
 .product-description {
@@ -118,7 +118,7 @@ nav ul li {
 .carrinho {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #27ae60;
+  background-color: #6439ff;
   color: white;
   text-decoration: none;
   border-radius: 5px;
@@ -127,7 +127,7 @@ nav ul li {
   transition: background-color 0.3s ease;
 }
 .carrinho:hover {
-  background-color: #219150;
+  background-color: #6439ff;
 }
 .reviews {
   margin-top: 40px;
