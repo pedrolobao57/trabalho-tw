@@ -39,12 +39,17 @@ nav ul li {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  color: var(--logo1);
+  color: var(--text--dark);
   font-weight: 700;
 }
 
 .navBar a:link, .navBar a:visited {
-  color: var(--logo1);
+  color: var(--text--dark);
   text-decoration: none;
   
+}
+
+.navBar a.active, .navBar a:hover {
+  color: var(--logo1);
+  transition: .2s;
 }
