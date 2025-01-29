@@ -160,3 +160,13 @@ button:active{
   transition: 0.1s;
 }
 
+.cart{
+  background-color: var(--text--dark);
+  color: var(--text--lighter);
+}
+
+.cart button{
+  color: var(--text--dark);
+  background-color: var(--text--lighter);
+}
+
