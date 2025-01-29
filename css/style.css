@@ -36,7 +36,10 @@ a {
 nav ul li {
   display: inline-block;
   margin-right: 25px;
+  align-items: center;
 }
+
+
 
 .navBar {
   display: flex;

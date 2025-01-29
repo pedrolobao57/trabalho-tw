@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+:root {
+  --logo1: #6439ff;
+  --logo2: #4f75ff;
+  --logo3: #00ccdd;
+  --logo4: #7cf5ff;
+  --text--dark: #030712;
+  --text--light: #6b7280;
+  --text--lighter: #f9fafb;
+}
+
+body {
+  background-color: #ffffff;
+  margin: 0;
+  font: 1rem "Quicksand", sans-serif;
+  height: 100%; 
+}
+
+.Hero_logo {
+  width: 10rem;
+  margin: 10px; 
+}
+
+nav {
+  justify-content: space-between;
+  text-align: right;
+  padding: 1rem 2rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 25px;
+  align-items: center;
+}
+
+
+
+.navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: var(--text--dark);
+  font-weight: 700;
+}
+
+.navBar a:link, .navBar a:visited {
+  color: var(--text--dark);
+  text-decoration: none;
+  
+}
+
+.navBar a.active, .navBar a:hover {
+  color: var(--logo1);
+  transition: .2s;
+}
+
+.Hero_image {
+  align-items: center;
+}
+
+.newsTitle {
+  font-size: 2rem;
+  color: var(--text--dark);
+  text-align: center;
+  margin: 20px;
+}
+
+.newsContent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+}
+
+.newsImg {
+ max-width: 40rem;
+ border-radius: 25px;
+}
+
+.newsDescription {
+  font-size: 1.2rem;
+  color: var(--text--dark);
+  text-align: justify;
+  margin: 20px;
+  text-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
