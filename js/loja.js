@@ -1,31 +1,28 @@
 let cart = [];
 
-function addToCart(productName, productPrice) {
+function addToCart(id, productName, productPrice) {
     let product = {
         name: productName,
-        price: productPrice
+        price: parseFloat(productPrice)
     };
 
     cart.push(product);
     updateCart();
 }
 
-
 function updateCart() {
     const cartItemsContainer = document.getElementById("Items");
-    const totalPriceElement = document.getElementById("totalPrice");
+    const totalPriceElement = document.getElementById("Total");
 
     cartItemsContainer.innerHTML = "";
-
-
     let total = 0;
+
     cart.forEach((item, index) => {
         const listItem = document.createElement("li");
-        listItem.textContent = `${item.name} - $${item.price}`;
-
+        listItem.textContent = `${item.name} - ${item.price.toLocaleString('pt-PT', { style: 'currency', currency: 'EUR' })}`;
 
         const removeButton = document.createElement("button");
-        removeButton.textContent = "Remove";
+        removeButton.textContent = "Remover";
         removeButton.onclick = function () {
             removeFromCart(index);
         };
@@ -36,20 +33,15 @@ function updateCart() {
         total += item.price;
     });
 
-    
-    totalPriceElement.textContent =`Total: $${total}`;
+    totalPriceElement.textContent = `Total Price: ${total.toLocaleString('pt-PT', { style: 'currency', currency: 'EUR' })}`;
 }
-
 
 function removeFromCart(index) {
     cart.splice(index, 1);
     updateCart();
 }
 
-
 function clearCart() {
     cart = [];
     updateCart();
 }
-
-
