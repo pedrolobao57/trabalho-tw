@@ -147,15 +147,16 @@ h4{
   transform: translateY(-10px);
 }
 
-.AddButton{
+button{
 color: var(--text--dark);
 background-color: var(--logo2);
 border-radius: 12px;
 font: 1rem "Quicksand", sans-serif;
 }
 
-.AddButton:active{
+button:active{
   background-color: #ffffff;
   transform: translateY(4px);
   transition: 0.1s;
 }
+

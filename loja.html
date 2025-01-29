@@ -30,46 +30,55 @@
         </div>
         <br>
         <div class="produtos">
-            <div class="topBar">
-                        
-            </div>
            
             <div class="row">
-                <div class="linha">
-                    <a href="equipamentop.html"><img src="images/equipamentoprincipal.jpg"></a>
-                    <a href="equipamentop.html"><h4>Equipamento Principal AEUGI</h4></a>
-                    <p>25,00 &euro;</p> <button class="AddButton"> Add To Cart</button>
+                <div class="linha" data-id="1" data-name="equipamentoprincipal"  data-price="25">
+                    <img src="images/equipamentoprincipal.jpg">
+                    <h4>Equipamento Principal AEUGI</h4>
+                    <p>25,00 &euro;</p> 
+                    <button onclick="addToCart(1, 'equipamentoprincipal', 25)">Add To Cart</button>
                 </div>
-                <div class="linha">
-                    <a href="equipamentos.html"><img src="images/equipamentosecundario.jpg"></a>
-                    <a href="equipamentos.html"><h4>Equipamento Secundário AEUGI</h4></a>
-                    <p>25,00 &euro;</p> <button class="AddButton"> Add To Cart</button>
+                <div class="linha" data-id="2" data-name="equipamentosecundario"  data-price="25" >
+                    <img src="images/equipamentosecundario.jpg">
+                    <h4>Equipamento Secundário AEUGI</h4>
+                    <p>25,00 &euro;</p> 
+                    <button onclick="addToCart(2, 'equipamentosecundario', 25)">Add To Cart</button>
                 </div>
-                <div class="linha">
-                    <a href="sweat.html"><img src="images/sweat.jpg"></a>
-                    <a href="sweat.html"><h4>Sweat AEUGI</h4></a>
-                    <p>30,00 &euro;</p> <button class="AddButton"> Add To Cart</button>
+                <div class="linha" data-id="3"  data-name="sweat" data-price="30">
+                    <img src="images/sweat.jpg">
+                   <h4>Sweat AEUGI</h4>
+                    <p>30,00 &euro;</p> 
+                    <button onclick="addToCart(3, 'sweat', 30)">Add To Cart</button>
                 </div>
             </div>
             
             <div class="row">
-                <div class="linha">
-                    <a href="tshirt.html"><img src="images/tshirt.jpg"></a>
-                    <a href="tshirt.html"><h4>T-shirt AEUGI</h4></a>
-                    <p>12,00 &euro;</p> <button class="AddButton"> Add To Cart</button>
+                <div class="linha" data-id="4" data-name="tshirt" data-price="12">
+                    <img src="images/tshirt.jpg">
+                    <h4>T-shirt AEUGI</h4>
+                    <p>12,00 &euro;</p> 
+                    <button onclick="addToCart(4, 'tshirt',12)">Add To Cart</button>
                 </div>
-                <div class="linha">
-                    <a href="emblema.html"><img src="images/emblema.jpg"></a>
-                    <a href="emblema.html"><h4>Emblema AEUGI</h4></a>
-                    <p>10,00 &euro;</p> <button  class="AddButton"> Add To Cart</button>
+                <div class="linha" data-id="5" data-name="emblema" data-price="10">
+                    <img src="images/emblema.jpg">
+                    <h4>Emblema AEUGI</h4>
+                    <p>10,00 &euro;</p> 
+                    <button onclick="addToCart(5, 'emblema', 10)">Add To Cart</button>
                 </div>
-                <div class="linha">
-                    <a href="pin.html"><img src="images/pin.jpg"></a>
-                    <a href="pin.htmls"><h4>Pin AEUGI</h4></a>
-                    <p>5,00 &euro;</p> <button class="AddButton"> Add To Cart</button>
+                <div class="linha" data-id="6" data-name="pin" data-price="5">
+                   <img src="images/pin.jpg">
+                    <h4>Pin AEUGI</h4>
+                    <p>5,00 &euro;</p> 
+                    <button onclick="addToCart(6, 'pin', 5)">Add To Cart</button>
                 </div>
             </div>
         </div>
+
+            <div class="cart"> <h2>Your Cart</h2>
+            <ul id="Items"></ul>
+            <p id='totalPrice' > Total Price: 0&euro; </p>
+            <button onclick="clearCart()">Limpar Carrinho</button>
+            </div>
       
   </div>
  <script src="/js/loja.js" ></script>
