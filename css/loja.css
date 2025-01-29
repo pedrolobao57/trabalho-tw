@@ -18,12 +18,13 @@ body {
 
 .Hero_logo {
   width: 10rem;
-  margin: 0;
+  margin: 10px;
 }
 
 nav {
   justify-content: space-between;
   text-align: right;
+  padding: 1rem 2rem;
 }
 
 a {
